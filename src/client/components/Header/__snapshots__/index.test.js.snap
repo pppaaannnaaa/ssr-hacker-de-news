@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Renders <Header /> component correctly 1`] = `
+<div>
+  <div
+    aria-label="News de Hacker Logo"
+    class="navbar-fixed"
+    role="navigation"
+  >
+    <nav
+      class="blue"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="nav-wrapper"
+        >
+          <a
+            class="brand-logo"
+            href="/"
+            style="white-space: nowrap;"
+          >
+            News de Hacker
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+`;

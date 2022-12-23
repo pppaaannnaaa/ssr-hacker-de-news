@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> Renders <App /> component correctly 1`] = `
+<div>
+  <div>
+    <div
+      aria-label="News de Hacker Logo"
+      class="navbar-fixed"
+      role="navigation"
+    >
+      <nav
+        class="blue"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="nav-wrapper"
+          >
+            <a
+              class="brand-logo"
+              href="/"
+              style="white-space: nowrap;"
+            >
+              News de Hacker
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div
+      class="container"
+    >
+      <div
+        aria-label="Something went wrong"
+        role="banner"
+      >
+        <h2>
+          Something went wrong.
+        </h2>
+        <details
+          style="white-space: pre-wrap;"
+        >
+          Error: Invariant failed: You should not use &lt;Switch&gt; outside a &lt;Router&gt;
+          <br />
+          
+    in Switch (created by App)
+    in ErrorBoundary (at App.js:13)
+    in div (at App.js:12)
+    in div (at App.js:10)
+    in App (at App.test.js:26)
+        </details>
+      </div>
+    </div>
+    <footer
+      aria-label="News de Hacker copyright"
+      class="page-footer blue"
+      role="navigation"
+    >
+      <div
+        class="footer-copyright"
+      >
+        <div
+          class="container"
+        >
+          © 2020 SSR News de Hacker
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

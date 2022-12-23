@@ -1,0 +1,17 @@
+sudo: false
+language: node_js
+node_js:
+  - 14.5.0
+install:
+  - yarn
+script:
+  - yarn test
+notifications:
+  email: false
+deploy:
+  provider: heroku
+  api_key:
+    secure: g/kQGLVHu/nxVuM6/eJ8NGTJziGZN78ppqqu9lPF3Os8C/21swj4O419mPuxGizyMuGaQhJbn2hjYEt35t3rYmxFZENP93MGR/PggCMBtMo/6owyaxHaEJtTipwcwVTaKhCgwknGUE0s99dpOcvf7zXuA7jqD1r1Baa9TTCyD6Pn24pKFCZrBuZ+744QkB3Ox9lFIwmE6g/CMs8tR6GF8CS+FdTW3z29mxzOC2dPiIY3T2RuTnQby2+QMZ+aQ+icUeEaiLtVoVPfg7+D9VTqElPbq52nUE7p4ULMJA9S9HM9qSO6w6/+8hl14YbMdJj2io7LADotHBkr+MWkA+rOsYw+AXmplVCPjhJPfo3dlOBGXRLwyXHbvOFytdiViI7P1vzmreLF6WA0enlIzXSEgTwiSd4dFOmjVJt8pwMNQ1gHIlM6pJaaWsOZxAtzj3rLgpDYZkE804PcFvqDI0uSpHgIxqaCdno2/hDMbuNaDIrZKa0sI1N9StwbCed/jiMPV8t6qxRMIYiV3a78IyRDcI86jWwqCMBmm5YhfmxFK3K7T1AbJGrZrSU5atPpf1D8e4DVBnq59Jkd6fpllDLHmr1JOyZki5b0BrURYD7aKHanoVSHk0CJGVEf5IrKWLf0RjsKKT9ncB8IoEvXGr6vAUxHTD3zcS0aJP6t9OTUr0A=
+  app: ssr_news_portal_hacker2
+  on:
+    repo: pppaaannnaaa/ssr_news_portal_hacker

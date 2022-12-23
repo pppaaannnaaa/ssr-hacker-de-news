@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> Renders <Home /> component correctly 1`] = `
+<div>
+  <div
+    aria-label="Home Page"
+    role="main"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="section"
+      >
+        <table
+          aria-label="News de Hacker List"
+          class="striped responsive-table"
+          role="contentinfo"
+        >
+          <thead>
+            <tr>
+              <th>
+                Comments
+              </th>
+              <th>
+                Vote count
+              </th>
+              <th>
+                UpVote
+              </th>
+              <th>
+                New Details
+              </th>
+              <th>
+                 
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                colspan="5"
+              >
+                No Data Found
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div
+          class="carousel-container"
+          style="padding-top: 20px; text-align: right;"
+        >
+          <link
+            aria-label="Previous Button"
+            class="btn blue darken-4"
+            disabled=""
+            name="prev"
+            role="navigation"
+            style="margin-right: 10px;"
+            to="/page/-1"
+            type="button"
+          >
+            Previous
+          </link>
+          <link
+            aria-label="Next Button"
+            class="btn blue darken-4"
+            name="next"
+            role="navigation"
+            to="/page/1"
+            type="button"
+          >
+            Next
+          </link>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+`;

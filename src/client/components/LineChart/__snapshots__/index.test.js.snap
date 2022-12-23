@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LineChart /> Renders <LineChart /> component correctly 1`] = `
+<div>
+  <div
+    aria-label="Line Chart"
+    role="form"
+  >
+    <div
+      style="padding: 200px 20%;"
+    >
+      <div
+        class="progress"
+      >
+        <div
+          class="indeterminate"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
